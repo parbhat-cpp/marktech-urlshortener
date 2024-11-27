@@ -12,6 +12,7 @@
 1. /api/shorten - POST
  Generates a shortId for a url.
     
+    ```
     body
     {
         url: "[VALID URL]"
@@ -28,6 +29,7 @@
         },
         "error": null
     }
+    ```
 
 2. /api/:shortId - GET
  Redirects to the original url by shortId.
@@ -35,6 +37,7 @@
 3. /api/stats/:shortId - GET
  Returns the usage statistics for a specific short URL
 
+    ```
     Sample response
     {
         "status_code": 200,
@@ -44,3 +47,4 @@
         },
         "error": null
     }
+    ```
