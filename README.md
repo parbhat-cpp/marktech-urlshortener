@@ -1,5 +1,7 @@
 # House of Marktech Url Shortener
 
+## Deployed link - [](https://marktech-urlshortener.onrender.com)
+
 ## Set up project
 After cloning the project add a .env file and add variables present in .env.example.
 
